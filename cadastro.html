@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos2/style.css">
+    <link rel="stylesheet" href="estilos2/media-query.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo-removebg.png" alt="">
+    </header>
+    <section id="fundo">
+        <div id="titulo" >
+            <h1>INCENDIADOS 2023</h1>
+        </div>
+        <div id="formulario">
+            <p>
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="inome">Nome completo *</label><br>
+                        <input type="text" name="nome" id="inome">
+                    </p>
+                    <p>
+                        <label for="iidade">Idade *</label><br>
+                        <input type="number" name="idade" id="iidade" min="0" minlength="1" maxlength="3" required>
+                    </p>
+                    <p>
+                        <label for="icongre">Congregação *</label><br>
+                        <select name="congregacao" id="icongre">
+                            <option value="">--- selecione ---</option>
+                            <option value="">Sede</option>
+                            <option value="">LH 0</option>
+                            <option value="">LH 01</option>
+                            <option value="">LH 02</option>
+                            <option value="">LH 03</option>
+                            <option value="">LH 04</option>
+                            <option value="">LH 05</option>
+                            <option value="">LH 14</option>
+                            <option value="">LH 15</option>
+                        </select>
+                    </p>
+                    <input type="submit" value="Enviar" id="final">
+                    <input type="reset" value="Limpar" id="final">
+                </form>
+            </p>
+        </div>
+    </section>
+</body>
+</html>
