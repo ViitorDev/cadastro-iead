@@ -70,4 +70,17 @@ p{
 
 input#final{
     padding: 3px;
+    margin-left: 6px;
+    margin-top: 10px;
+    background-color: #1B4965;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+input#final:hover{
+    background-color: white;
+    border-radius: 4px;
+    color: #1B4965;
+    border: 2px solid #1B4965;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.484);
 }
