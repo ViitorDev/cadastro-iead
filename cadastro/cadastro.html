@@ -21,11 +21,11 @@
                 <form action="cadastro.php" method="post" autocomplete="on">
                     <p>
                         <label for="inome">Nome completo *</label><br>
-                        <input type="text" name="nome" id="inome">
+                        <input type="text" name="nome" id="inome" required minlength="1" maxlength="100" >
                     </p>
                     <p>
                         <label for="iidade">Idade *</label><br>
-                        <input type="number" name="idade" id="iidade" min="0" minlength="1" maxlength="3" required>
+                        <input type="number" name="idade" id="iidade" min="0" required >
                     </p>
                     <p>
                         <label for="icongre">Congregação *</label><br>

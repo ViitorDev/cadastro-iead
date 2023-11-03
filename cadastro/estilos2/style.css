@@ -67,7 +67,11 @@ section#fundo > div#formulario {
 p{
     padding: 5px;
 }
-
+input,select{
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #1B4965;
+}
 input#final{
     padding: 3px;
     margin-left: 6px;
