@@ -9,3 +9,14 @@ desktop: 992px ate 1200px
 telas grandes: acima de 1200px
 */
 
+@media screen and (min-width: 768px){
+    section#fundo{
+        width: 85%;  
+    }
+    input{
+        padding-right: 250px;
+    }
+    input#iidade, select{
+        padding-right: 1px;
+    }
+}
